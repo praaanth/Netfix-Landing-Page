@@ -1,5 +1,6 @@
 import React from 'react'
+import "../style/background.css"
 import background from '../images/net.jpg';
 export default function Background() {
-  return <img src={background} alt="Background" />;
+  return <img className="background" src={background} alt="background" />;
 }
